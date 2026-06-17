@@ -109,6 +109,7 @@ This resource is most ideal for red teams and developers focused on building and
 
 ## 🛡️ LLM Defensive Tools & Resources
 
+- [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) - The OWASP reference implementation for ASI06 (Memory Poisoning). A runtime defense layer that screens every read/write to an AI agent's persistent memory through detectors (prompt injection, secret/PII leakage, protected-key tampering, size/anomaly) and a declarable YAML policy, with forensic logging and point-in-time rollback. A direct defensive counterpart to memory/knowledge-base poisoning tools such as AgentPoison.
 - [LLM Guard - The Security Toolkit for LLM Interaction](https://github.com/protectai/llm-guard) - A security toolkit designed for protecting interactions with large language models by offering sanitization, detection of harmful language, prevention of data leakage, and resistance against prompt injection attacks
 - [Rebuff](https://github.com/protectai/rebuff) - Rebuff is designed to protect AI applications from prompt injection (PI) attacks through a multi-layered defense that involves heuristics, LLM-based detection and canary tokens.
 - [anonLLM](https://github.com/fsndzomga/anonLLM) - anonLLM is a Python package designed to anonymize personally identifiable information (PII) in text data before it's sent to Language Model APIs like GPT-3. The goal is to protect user privacy by ensuring that sensitive data such as names, email addresses, and phone numbers are anonymized.
